@@ -1,0 +1,334 @@
+C:\Users\Admin>cd../..
+
+C:\>cd xampp/mysql/bin
+
+C:\xampp\mysql\bin>mysql -u root -p -h localhost
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 8
+Server version: 10.4.11-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
+| testdb             |
+| trip               |
++--------------------+
+7 rows in set (0.001 sec)
+
+MariaDB [(none)]> create database youtube;
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
+| testdb             |
+| trip               |
+| youtube            |
++--------------------+
+8 rows in set (0.001 sec)
+
+MariaDB [(none)]> drop database trip;
+Query OK, 1 row affected (0.677 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
+| testdb             |
+| youtube            |
++--------------------+
+7 rows in set (0.002 sec)
+
+MariaDB [(none)]> use youtube;
+Database changed
+MariaDB [youtube]> select database();
++------------+
+| database() |
++------------+
+| youtube    |
++------------+
+1 row in set (0.000 sec)
+
+MariaDB [youtube]> create table students
+    ->
+    -> name varchar(55),
+    -> age int
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'name varchar(55),
+age int' at line 3
+MariaDB [youtube]> create table students
+    -> (
+    -> name varchar(55),
+    -> age int
+    -> );
+Query OK, 0 rows affected (0.436 sec)
+
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| students          |
++-------------------+
+1 row in set (0.001 sec)
+
+MariaDB [youtube]> create table studentdemo;
+ERROR 1113 (42000): A table must have at least 1 column
+MariaDB [youtube]> create table student-demo;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-demo' at line 1
+MariaDB [youtube]> create table student_demo;
+ERROR 1113 (42000): A table must have at least 1 column
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| studentclass      |
+| students          |
++-------------------+
+2 rows in set (0.001 sec)
+
+MariaDB [youtube]> desc students;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| name  | varchar(55) | YES  |     | NULL    |       |
+| age   | int(11)     | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.036 sec)
+
+MariaDB [youtube]> desc studentclass;
++-------+--------------+------+-----+---------+-------+
+| Field | Type         | Null | Key | Default | Extra |
++-------+--------------+------+-----+---------+-------+
+| name  | text         | NO   |     | NULL    |       |
+| age   | varchar(100) | NO   |     | NULL    |       |
++-------+--------------+------+-----+---------+-------+
+2 rows in set (0.027 sec)
+
+MariaDB [youtube]> create table studentdemo
+    -> (
+    -> name varchar(55);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+MariaDB [youtube]> create table studentdemo
+    -> (
+    -> name varchar(55)
+    -> age int
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'int
+)' at line 4
+MariaDB [youtube]> create table studentdemo
+    -> (
+    -> name varchar(55),
+    -> age int
+    -> );
+Query OK, 0 rows affected (0.326 sec)
+
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| studentclass      |
+| studentdemo       |
+| students          |
++-------------------+
+3 rows in set (0.001 sec)
+
+MariaDB [youtube]> drop table studentclass
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+MariaDB [youtube]> drop table studentclass;
+Query OK, 0 rows affected (0.336 sec)
+
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| studentdemo       |
+| students          |
++-------------------+
+2 rows in set (0.001 sec)
+
+MariaDB [youtube]> drop table studentdemo
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+MariaDB [youtube]> drop table studentdemo;
+Query OK, 0 rows affected (0.310 sec)
+
+MariaDB [youtube]> show table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| students          |
++-------------------+
+1 row in set (0.001 sec)
+
+MariaDB [youtube]> drop table students;
+Query OK, 0 rows affected (0.300 sec)
+
+MariaDB [youtube]> create table students(
+    -> id int,
+    -> name varchar(55),
+    -> class int
+    -> );
+Query OK, 0 rows affected (0.387 sec)
+
+MariaDB [youtube]> show tables;
++-------------------+
+| Tables_in_youtube |
++-------------------+
+| students          |
++-------------------+
+1 row in set (0.001 sec)
+
+MariaDB [youtube]> desc studentsl
+    -> ;
+ERROR 1146 (42S02): Table 'youtube.studentsl' doesn't exist
+MariaDB [youtube]> desc students;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | YES  |     | NULL    |       |
+| name  | varchar(55) | YES  |     | NULL    |       |
+| class | int(11)     | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+3 rows in set (0.019 sec)
+
+MariaDB [youtube]> insert into students
+    -> (id,name,class)
+    -> values(1,'mansi',5);
+Query OK, 1 row affected (0.168 sec)
+
+MariaDB [youtube]> insert into students
+    -> values(2,'bhumi',10);
+Query OK, 1 row affected (0.177 sec)
+
+MariaDB [youtube]> select * from students;
++------+-------+-------+
+| id   | name  | class |
++------+-------+-------+
+|    1 | mansi |     5 |
+|    2 | bhumi |    10 |
++------+-------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [youtube]> insert into students(id,name,class)
+    -> values('cute','gurnani',5);
+Query OK, 1 row affected, 1 warning (0.149 sec)
+
+MariaDB [youtube]> show warnings;
++---------+------+-------------------------------------------------------------------------------+
+| Level   | Code | Message                                                                       |
++---------+------+-------------------------------------------------------------------------------+
+| Warning | 1366 | Incorrect integer value: 'cute' for column `youtube`.`students`.`id` at row 1 |
++---------+------+-------------------------------------------------------------------------------+
+1 row in set (0.000 sec)
+
+MariaDB [youtube]> desc students;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | YES  |     | NULL    |       |
+| name  | varchar(55) | YES  |     | NULL    |       |
+| class | int(11)     | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+3 rows in set (0.033 sec)
+
+MariaDB [youtube]> insert into students(id,name)values(4,'kuchbhi');
+Query OK, 1 row affected (0.146 sec)
+
+MariaDB [youtube]> select* from students;
++------+---------+-------+
+| id   | name    | class |
++------+---------+-------+
+|    1 | mansi   |     5 |
+|    2 | bhumi   |    10 |
+|    0 | gurnani |     5 |
+|    4 | kuchbhi |  NULL |
++------+---------+-------+
+4 rows in set (0.000 sec)
+
+MariaDB [youtube]> create table stunull
+    -> (
+    -> id int not null,
+    -> name varchar(55) not null
+    -> );
+Query OK, 0 rows affected (0.371 sec)
+
+MariaDB [youtube]> desc stunull;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | NO   |     | NULL    |       |
+| name  | varchar(55) | NO   |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.030 sec)
+
+MariaDB [youtube]> insert into stunull(name) values('mansi');
+Query OK, 1 row affected, 1 warning (0.201 sec)
+
+MariaDB [youtube]> select* from stunull;
++----+-------+
+| id | name  |
++----+-------+
+|  0 | mansi |
++----+-------+
+1 row in set (0.001 sec)
+
+MariaDB [youtube]> create table studef
+    -> ( id int not null default 0,
+    -> name varchar(55) not null default 'unamed'
+    -> );
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    101
+Current database: youtube
+
+Query OK, 0 rows affected (1.129 sec)
+
+MariaDB [youtube]> desc studef;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | NO   |     | 0       |       |
+| name  | varchar(55) | NO   |     | unamed  |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.055 sec)
+
+MariaDB [youtube]> insert into studef() values();
+Query OK, 1 row affected (0.082 sec)
+
+MariaDB [youtube]> select * from studef;
++----+--------+
+| id | name   |
++----+--------+
+|  0 | unamed |
++----+--------+
+1 row in set (0.001 sec)
+
+MariaDB [youtube]> Ctrl-C -- exit!
+Bye
+
+C:\xampp\mysql\bin>
