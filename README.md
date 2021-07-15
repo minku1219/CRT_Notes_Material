@@ -7,6 +7,7 @@
 
 
 
+<a href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m">Placement Material</a>
 <a href="https://www.geeksforgeeks.org/c-programming-language/">c-programming-language</a><br>
 <a href="https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/">competitive-programming-a-complete-guide</a><br>
 <a href="https://practice.geeksforgeeks.org/topic-tags/">topic-tags</a><br>
