@@ -1,13 +1,13 @@
 # DO NO MAKE ANY CHANGES TO THIS!
 
-<a href="https://drive.google.com/drive/folders/1vNSf9q5-TF2zmVolHR95-B8dsrC3AU8o?usp=sharing">Recording Drive Link</a>
-<a href="https://drive.google.com/drive/folders/1POOljj8SoRmq78JFCn38h_wj7G0vIiE5">Recording Drive Link</a>
+<a href="https://drive.google.com/drive/folders/1vNSf9q5-TF2zmVolHR95-B8dsrC3AU8o?usp=sharing">Recording Drive Link</a><br>
+<a href="https://drive.google.com/drive/folders/1POOljj8SoRmq78JFCn38h_wj7G0vIiE5">Recording Drive Link</a><br>
 
 ## Basic Links ##
 
 
 
-<a href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m">Placement Material</a>
+<a href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m">Placement Material</a><br>
 <a href="https://www.geeksforgeeks.org/c-programming-language/">c-programming-language</a><br>
 <a href="https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/">competitive-programming-a-complete-guide</a><br>
 <a href="https://practice.geeksforgeeks.org/topic-tags/">topic-tags</a><br>
@@ -23,6 +23,6 @@
 <a href="https://shrinke.me/VDheSFhF">Become an Algorithms Expert</a><br>
 <a href="https://ssup.co/mega/nz/5IcS">Interview Preparation Part 1</a><br>
 <a href="https://ssup.co/mega/nz/MEMv">Interview Preparation Part 2</a><br>
-<a href="https://shrinke.me/IFvH">Interview Tips</a>
-<a href="https://www.javatpoint.com/networking-interview-questions">networking-interview-questions</a>
-<a href="https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/">commonly-asked-operating-systems-interview-questions</a>
+<a href="https://shrinke.me/IFvH">Interview Tips</a><br>
+<a href="https://www.javatpoint.com/networking-interview-questions">networking-interview-questions</a><br>
+<a href="https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/">commonly-asked-operating-systems-interview-questions</a><br>
