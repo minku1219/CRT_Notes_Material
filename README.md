@@ -21,4 +21,5 @@
 <a href="https://ssup.co/mega/nz/5IcS">Interview Preparation Part 1</a><br>
 <a href="https://ssup.co/mega/nz/MEMv">Interview Preparation Part 2</a><br>
 <a href="https://shrinke.me/IFvH">Interview Tips</a>
-
+<a href="https://www.javatpoint.com/networking-interview-questions">networking-interview-questions</a>
+<a href="https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/">commonly-asked-operating-systems-interview-questions</a>
