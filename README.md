@@ -7,6 +7,8 @@
 
 
 
+<a href="https://bit.ly/Aptitudestudymaterial">Aptitude</a>
+<a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view">Drive for Questions of DSA</a>
 <a href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m">Placement Material</a><br>
 <a href="https://www.geeksforgeeks.org/c-programming-language/">c-programming-language</a><br>
 <a href="https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/">competitive-programming-a-complete-guide</a><br>
