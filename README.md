@@ -97,3 +97,34 @@ What is data structure
 <a href="https://shrinke.me/IFvH">Interview Tips</a><br>
 <a href="https://www.javatpoint.com/networking-interview-questions">networking-interview-questions</a><br>
 <a href="https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/">commonly-asked-operating-systems-interview-questions</a><br>
+
+
+
+# Important
+
+
+
+```
+Hello all,
+
+I am sharing some reliable resources with you and I can also guarantee the credibility (because I also gone through these resources)
+
+Happy Learning 🙂 !!!
+
+1.) C programming fundamentals : https://youtube.com/playlist?list=PLNutulngj0C4X0xGmFpQSLXol_zDAiAwh
+
+2.) DSA fundamentals : https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
+
+3.) Complexities & Sorting : https://youtube.com/playlist?list=PLCgWmBFaDpLhZNsvkluDOdPT7rVOOJtGP
+
+4.) OOPS Core Concepts : https://youtube.com/playlist?list=PLCZJSEiJwWZ4XZFDktKqSV3vcAiau4xpV
+
+5.) RDBMS (Till lecture 41) : https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y
+
+6.) Coding Platforms : https://leetcode.com/ & 
+https://edyst.com/
+
+Note : for Coding platforms no paid course required you can simple explore problems an try them here
+
+All the Best 👍
+```
