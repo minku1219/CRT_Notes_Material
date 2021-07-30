@@ -3,6 +3,74 @@
 <a href="https://drive.google.com/drive/folders/1vNSf9q5-TF2zmVolHR95-B8dsrC3AU8o?usp=sharing">Recording Drive Link</a><br>
 <a href="https://drive.google.com/drive/folders/1POOljj8SoRmq78JFCn38h_wj7G0vIiE5">Recording Drive Link</a><br>
 
+
+
+## Complexities
+
+
+
+<img src="cmx.png">
+
+
+
+## Technical Interview questions
+
+
+
+```
+Difference between java and C++
+Diffrence between python and C++
+Difference between C and C++
+Why is python interpreted ?
+Java is platform independent or dependent  , why?
+This pointer 
+While pointer
+Void or null m difference
+Super class
+Oops concepts
+Virtual function
+All types of inheritance
+Overloading
+Function overriding 
+Constructor or method m difference
+Run time polymorphism
+Moderators
+Header files
+Recursion
+Use of recursion
+What is DBMS 
+What is normalisation
+Keys m kuch bhi 
+Joins all in DBMS
+Dba
+What is stack ,, applications 
+What is queue ,,applications
+Fastest searching algo
+Complexities of algo 
+Comparisons of algo
+Or project k upr agr .... Ml ya fltter ya or bhi kuch web development use kiya hai to .. javascript se questions puch rhi thi
+Data independence
+Os m deadlock ki conditions
+What is data structure
+Python 
+Tuples
+Dictionary
+Set
+List
+Difference between
+Mutable and immutable
+Modules in python
+Storage classes in c
+Basic functionality of os
+Linked list all types kuch bhi ... applications
+Dbms m acid property
+Binary search vs linear search
+What is algorithm
+What is data structure
+```
+
+
+
 ## Basic Links ##
 
 
