@@ -128,3 +128,4 @@ Note : for Coding platforms no paid course required you can simple explore probl
 
 All the Best 👍
 ```
+element.style.display = "none";
